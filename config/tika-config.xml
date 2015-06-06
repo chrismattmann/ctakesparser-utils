@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<properties>
+  <parsers>
+    <parser class="org.apache.tika.parser.ctakes.CTAKESParser">
+      <mime>application/x-isatab</mime>
+      <mime>application/pdf</mime>
+    </parser>
+  </parsers>
+</properties>
