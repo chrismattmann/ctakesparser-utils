@@ -4,6 +4,8 @@
     <parser class="org.apache.tika.parser.ctakes.CTAKESParser">
       <mime>application/x-isatab</mime>
       <mime>application/pdf</mime>
+      <mime>text/plain</mime>
+      <parser class="org.apache.tika.parser.DefaultParser"/>
     </parser>
   </parsers>
 </properties>
